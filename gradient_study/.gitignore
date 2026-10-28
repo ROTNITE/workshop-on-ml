@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+*.py[cod]
+*.nbc
+*.nbi
+node_modules/
+.cache/
+outputs/*.zip
+outputs/*.inspect.ndjson
+outputs/workbook_previews/
+outputs/animation_contact_sheet.png
+outputs/search_checkpoint.csv

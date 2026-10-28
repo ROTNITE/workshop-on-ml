@@ -1,0 +1,60 @@
+{
+  "dataset_sha256": "459f4363fb7192f730c5396c87d9ac6a8bb936272b40f8abd3a62c1d433c7571",
+  "original_notebook_sha256": "d1931baad0756bf6b3274c90c78a4f78fd052123f9508739e27a79b3595c13b9",
+  "upstream_repository": "https://github.com/ROTNITE/workshop-on-ml",
+  "upstream_commit": "60d25da62512835765c8ce14597a80c6e0e1aa34",
+  "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+  "config": {
+    "seed": 42,
+    "train_fraction": 0.6,
+    "validation_fraction": 0.2,
+    "alpha": 0.05,
+    "correlation_threshold": 0.85,
+    "lambda_grid": [
+      1e-05,
+      0.0001,
+      0.001,
+      0.01,
+      0.1,
+      1.0
+    ],
+    "schedules": [
+      "constant",
+      "time_decay"
+    ],
+    "methods": [
+      "VGD",
+      "SGD",
+      "SAG",
+      "Momentum",
+      "Adam"
+    ],
+    "max_iter": 10000,
+    "gradient_tolerance": 1e-07,
+    "check_every": 50,
+    "batch_size": 32,
+    "divergence_limit": 1000000000000.0,
+    "baseline_max_iter": 1000000,
+    "baseline_tolerance": 1e-10
+  },
+  "libraries": {
+    "numpy": "2.5.4",
+    "pandas": "3.1.0",
+    "scipy": "1.18.1",
+    "scikit-learn": "1.9.1",
+    "numba": "0.68.1",
+    "matplotlib": "3.11.2",
+    "pillow": "13.0.0"
+  },
+  "lectures": {
+    "sources\\lectures\\1. Линейная регрессия.pdf": "eab78c2c8d90d759c176f0e3b4e3777782f2249876433eeec580969c542a0dd9",
+    "sources\\lectures\\2. Методы линейной регрессии.pdf": "7721b2d48fc4e3ed5a626849f78d1baa60994dde290234827829c8f88534b768",
+    "sources\\lectures\\3_Статистическая_проверка_качества_модели.pdf": "1112e1cf69b6ab8c7a1a293903f4d916f17a3725843abf31a0f40510a0496fee"
+  },
+  "selection_uses_test": false,
+  "test_evaluated_for": [
+    "winner",
+    "train_mean_baseline"
+  ],
+  "loocv_total_fits": 28800
+}

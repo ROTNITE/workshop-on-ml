@@ -1,0 +1,32 @@
+{
+  "sha256": "d1931baad0756bf6b3274c90c78a4f78fd052123f9508739e27a79b3595c13b9",
+  "figures": [
+    {
+      "cell": 11,
+      "mime": "image/gif",
+      "frames": 97,
+      "size": [
+        805,
+        630
+      ],
+      "reference": "cell_11_last_frame.png"
+    },
+    {
+      "cell": 13,
+      "mime": "image/gif",
+      "frames": 98,
+      "size": [
+        760,
+        425
+      ],
+      "reference": "cell_13_last_frame.png"
+    }
+  ],
+  "errors": [
+    {
+      "cell": 15,
+      "ename": "TypeError",
+      "evalue": "show_gif() got an unexpected keyword argument 'full_frames'"
+    }
+  ]
+}

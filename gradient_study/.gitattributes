@@ -1,0 +1,3 @@
+# Preserve the exact bytes of inputs validated by SHA-256 on every platform.
+data/regression_data.csv -text
+sources/regression.original.ipynb -text

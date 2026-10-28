@@ -1,0 +1,38 @@
+{
+  "notebook": "7 executed code cells: 5 blocks, conclusions, animations; no errors",
+  "configurations": 60,
+  "loocv_fits": 28800,
+  "test_rmse": 469.22584565064795,
+  "source_and_correlation_unchanged": true,
+  "animations": [
+    {
+      "name": "01_correlations",
+      "frames": 69,
+      "size": [
+        805,
+        630
+      ],
+      "last_frame_mean_color_error": 1.9177271681619508
+    },
+    {
+      "name": "02_methods",
+      "frames": 79,
+      "size": [
+        760,
+        425
+      ],
+      "last_frame_mean_color_error": 2.3386656346749226
+    },
+    {
+      "name": "03_predictions",
+      "frames": 78,
+      "size": [
+        760,
+        590
+      ],
+      "last_frame_mean_color_error": 2.6125854891465954
+    }
+  ],
+  "xlsx": "7 sheets; native chart starts at zero; all 160 residual/square/absolute/baseline formulas verified",
+  "not_verified": "Desktop Microsoft Excel and a graphical Jupyter frontend were not launched."
+}
